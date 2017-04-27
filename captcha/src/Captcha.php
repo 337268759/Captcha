@@ -13,7 +13,7 @@ namespace Jun\captcha;
 
 class Captcha {
 	protected $config = [
-		'seKey'    => 'ThinkPHP.CN',
+		'seKey'    => 'Jun.CN',
 		// 验证码加密密钥
 		'codeSet'  => '0123456789abcdefhijkmnpqrstuvwxyzABCDEFGHJKLMNPQRTUVWXY',
 		// 验证码字符集合
