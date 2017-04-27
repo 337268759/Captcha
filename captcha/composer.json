@@ -1,0 +1,25 @@
+{
+    "name": "337268759/captcha",
+    "description": "This is a captcha plug-in",
+    "keywords": [
+        "captcha",
+        "Verification Code"
+    ],
+    "homepage": "https://github.com/337268759/Pinyin.git",
+    "authors": [
+        {
+            "name": "Jun",
+            "email": "https://github.com/337268759"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jun\\captcha\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
