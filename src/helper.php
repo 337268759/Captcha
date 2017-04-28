@@ -90,8 +90,8 @@ if ( ! function_exists( 'C' ) ) {
 
 if ( ! function_exists( 'U' ) ) {
 	function U( $url = '' ) {
-		$postfix = is_null( C( 'url_postfix' ) ) ? '' : '.' . C( 'url_postfix' );
+		$postfix = is_null( C( 'url_postfix', 'html' ) ) ? '' : '.' . C( 'url_postfix', 'html' );
 
-		return ROOT . $url . $postfix;
+		return '/' . $url . $postfix;
 	}
 }
